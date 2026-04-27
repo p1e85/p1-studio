@@ -6,11 +6,32 @@
     <title>{{ page.title }} | {{ site.title }}</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-900 text-gray-100 font-sans antialiased">
+<body class="bg-gray-900 text-gray-100 font-sans antialiased flex flex-col min-h-screen">
     
-    <main class="max-w-4xl mx-auto p-8">
+    <header class="bg-gray-950 border-b border-gray-800">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold text-green-500 tracking-wider">P1_CREATIONS</a>
+            <nav class="space-x-6 text-sm text-gray-400 font-mono">
+                <a href="/" class="hover:text-green-400 transition-colors">Home</a>
+                <a href="/#projects" class="hover:text-green-400 transition-colors">Web Apps</a>
+                <a href="/logs" class="hover:text-green-400 transition-colors">Dev Logs</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-5xl mx-auto p-6 w-full">
         {{ content }}
     </main>
+
+    <footer class="bg-gray-950 border-t border-gray-800 mt-12">
+        <div class="max-w-5xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 font-mono">
+            <p>&copy; 2026 P1 Creations LLC. Chicago, IL.</p>
+            <div class="space-x-4 mt-4 md:mt-0">
+                <a href="https://github.com/p1e85" target="_blank" class="hover:text-green-400 transition-colors">GitHub</a>
+                <a href="mailto:p1creationsco@gmail.com" class="hover:text-green-400 transition-colors">Contact</a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
