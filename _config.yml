@@ -1,0 +1,10 @@
+title: P1 Creations
+description: An independent software development studio based in Chicago.
+url: "https://www.p1creations.com"
+
+# This tells Jekyll to use its standard Markdown processor
+markdown: kramdown
+
+# We will ignore some folders later so Jekyll doesn't try to build them
+exclude:
+  - node_modules
