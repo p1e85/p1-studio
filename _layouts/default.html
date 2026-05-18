@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:title" content="{{ page.title | default: site.title }}">
+    <meta property="og:description" content="P1 Creations LLC - Modern web utilities, retro computing, and digital architecture based in Chicago, IL.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}/assets/img/social-preview.png">
+
+    <!-- Twitter / iMessage Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+    <meta name="twitter:description" content="P1 Creations LLC - Modern web utilities, retro computing, and digital architecture based in Chicago, IL.">
+    <meta name="twitter:image" content="{{ site.url }}/assets/img/social-preview.png">
+    <!-- The Favicon Link -->
+    <link rel="icon" type="image/png" href="/favicon.png">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-900 text-gray-100 font-sans antialiased flex flex-col min-h-screen">
