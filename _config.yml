@@ -8,3 +8,9 @@ markdown: kramdown
 # We will ignore some folders later so Jekyll doesn't try to build them
 exclude:
   - node_modules
+
+  # Custom Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/

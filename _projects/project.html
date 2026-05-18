@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="max-w-3xl mx-auto mt-12">
+    <div class="mb-8">
+        <h1 class="text-4xl font-bold text-white mb-2">{{ page.title }}</h1>
+        <p class="text-green-400 font-mono text-sm mb-6">{{ page.tech_stack }}</p>
+        
+        <div class="flex space-x-4">
+            {% if page.demo_link %}
+            <a href="{{ page.demo_link }}" target="_blank" class="bg-gray-800 hover:bg-gray-700 text-white font-semibold py-2 px-6 rounded border border-gray-700 transition-colors">Live Demo</a>
+            {% endif %}
+            {% if page.github_link %}
+            <a href="{{ page.github_link }}" target="_blank" class="bg-gray-900 hover:bg-gray-800 text-gray-300 font-semibold py-2 px-6 rounded border border-gray-700 transition-colors">GitHub</a>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="prose prose-invert prose-green max-w-none text-gray-300 leading-relaxed">
+        {{ content }}
+    </div>
+</article>
