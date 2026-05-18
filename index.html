@@ -34,5 +34,29 @@ title: Home
             <a href="https://www.littertroopers.com"><img src="/assets/img/LTBetaSS1.png" alt="Litter Troopers App Interface" class="w-full max-w-[280px] rounded-3xl border border-gray-700 shadow-2xl shadow-green-900/20 object-cover aspect-[9/16]"></a>
         </div>
 
+    </div><!-- Web Apps & Retro Lab Section -->
+<section id="projects" class="mb-20 scroll-mt-24">
+    <div class="flex items-center justify-between mb-8 border-b border-gray-800 pb-4">
+        <h2 class="text-3xl font-bold text-white">Software Showcase</h2>
+    </div>
+
+    <!-- The Projects Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {% for project in site.projects %}
+        <div class="bg-gray-950 border border-gray-800 p-6 rounded-xl hover:border-green-500/50 transition-colors flex flex-col justify-between group">
+            <div>
+                <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-green-400 transition-colors">
+                    <a href="{{ project.url }}">{{ project.title }}</a>
+                </h3>
+                <p class="text-xs font-mono text-green-500 mb-4">{{ project.tech_stack }}</p>
+                <p class="text-gray-400 text-sm mb-6">
+                    {{ project.content | strip_html | truncatewords: 25 }}
+                </p>
+            </div>
+            <a href="{{ project.url }}" class="inline-block text-sm text-green-400 hover:text-green-300 font-mono mt-auto">View Details &rarr;</a>
+        </div>
+        {% endfor %}
     </div>
 </section>
+</section>
+
