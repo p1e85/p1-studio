@@ -6,6 +6,6 @@ demo_link: "https://p1e85.github.io/resume.github.io/game.html"
 github_link: "https://github.com/p1e85/supramansion"
 ---
 
-A specialized P1 Creations interactive project. 
+An original, text-adventure web-based game developed by P1 Creations.
 
-*(Note: You can add a quick sentence here describing if this is a web-based game, a retro Commodore project, or a mobile app!)*
+Supra Mansion showcases custom game logic and browser-based rendering. Designed to be lightweight and accessible directly via the web, this project highlights the studio's ability to create engaging, interactive loops and manage state without relying on heavy external game engines.
