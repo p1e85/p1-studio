@@ -4,6 +4,7 @@ title: "Our World Time"
 tech_stack: "[JavaScript] [HTML5] [Intl API] [CSS Variables]"
 demo_link: "https://www.ourworldtime.com/" 
 github_link: "https://github.com/p1e85/ourworldtime.github.io"
+image: "/assets/img/ourworlss.png"
 ---
 
 Our World Time is a real-time world clock and time zone converter. 

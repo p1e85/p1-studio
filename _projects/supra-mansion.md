@@ -4,6 +4,7 @@ title: "Supra Mansion"
 tech_stack: "[Game Development] [Logic] [UI/UX]"
 demo_link: "https://p1e85.github.io/resume.github.io/game.html" 
 github_link: "https://github.com/p1e85/supramansion"
+image: "/assets/img/supraman.png"
 ---
 
 An original, text-adventure web-based game developed by P1 Creations.

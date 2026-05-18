@@ -4,6 +4,7 @@ title: "Retro-DB Terminal"
 tech_stack: "[JavaScript] [Local Storage] [DOM Manipulation]"
 demo_link: "https://retrodbterminal.com/" 
 github_link: "https://github.com/p1e85/retrodbterminal.github.io"
+image: "/assets/img/retrodbterm.png"
 ---
 
 A robust, fully client-side terminal database application.

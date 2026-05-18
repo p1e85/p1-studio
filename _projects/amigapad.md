@@ -4,6 +4,7 @@ title: "Amigapad"
 tech_stack: "[HTML5] [CSS3] [Vanilla JS]"
 demo_link: "https://p1e85.github.io/resume.github.io/amigapad/" 
 github_link: "https://github.com/p1e85/amigapad"
+image: "/assets/img/amigapad.png"
 ---
 
 A specialized retro notepad web utility. 

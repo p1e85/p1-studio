@@ -4,6 +4,7 @@ title: "Daily Pulse"
 tech_stack: "[JavaScript] [Firebase] [DOM Manipulation]"
 demo_link: "https://p1e85.github.io/resume.github.io/dailylist.html" 
 github_link: "https://github.com/p1e85/Daily-Pulse"
+image: "/assets/img/dailylist.png"
 ---
 
 A streamlined task management and daily tracking utility.
