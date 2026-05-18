@@ -1,0 +1,24 @@
+---
+layout: default
+title: Dev Logs
+permalink: /logs/
+---
+
+<div class="max-w-3xl mx-auto mt-12">
+    <h1 class="text-4xl font-bold text-white mb-8 border-b border-gray-800 pb-4">Developer Logs</h1>
+
+    <div class="space-y-10">
+        {% for post in site.posts %}
+        <article>
+            <h2 class="text-2xl font-bold mb-2">
+                <a href="{{ post.url }}" class="text-white hover:text-green-400 transition-colors">{{ post.title }}</a>
+            </h2>
+            <p class="text-green-500 font-mono text-xs mb-3">{{ post.date | date: "%B %d, %Y" }}</p>
+            <p class="text-gray-400">
+                {{ post.excerpt | strip_html | truncatewords: 30 }}
+            </p>
+            <a href="{{ post.url }}" class="inline-block mt-3 text-sm text-green-400 hover:text-green-300 font-mono">Read Log &rarr;</a>
+        </article>
+        {% endfor %}
+    </div>
+</div>
