@@ -3,8 +3,8 @@ layout: project
 title: "DiskOS V1.8"
 tech_stack: "[Vanilla JS] [HTML5 Canvas] [Web Audio API]"
 demo_link: "http://www.diskos.net" 
-github_link: "https://github.com/p1e85/DiskOS"
-image: "/assets/img/diskos-screenshot.png"
+github_link: "http://github.com/p1e85/DiskOS"
+image: "/assets/img/diskos.png"
 ---
 
 A fully functional, browser-based retro operating system and 8-bit game engine built entirely in vanilla web technologies. 
